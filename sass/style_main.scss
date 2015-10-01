@@ -80,10 +80,10 @@
 
 
 
-a{
-    background:red;
-    &:hover{
-        color:blue;
-        text-decoration:underline;
-    }
+/* slider  */
+
+.lube-slider-wrap{min-width: 960px;position: relative;
+    .slider-description{position: absolute;background-color: rgba(255,255,255,.83);left: 50%;top:50%;font-family: 'Lora', sans-serif;color:#d3a664;line-height: 77px;font-size: 72px;margin-left: -25%;margin-top: -65px;z-index:1;}
 }
+
+/* /slider */

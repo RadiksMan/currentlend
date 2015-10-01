@@ -74,13 +74,13 @@
 	<script src="develop/autocssrenew.js" type="text/javascript"></script>-->
 
     <script src="js/develop_2.js" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="develop_2.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/develop_2.css" media="all" />
 
     <script src="js/develop_3.js" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="develop_3.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/develop_3.css" media="all" />
 
     <script src="js/develop_4.js" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="develop_4.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/develop_4.css" media="all" />
 <!-- remove Files -->
 
 	<link rel="stylesheet" href="css/style_main.css" media="all" />

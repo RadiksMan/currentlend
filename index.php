@@ -17,7 +17,7 @@
 
 		<div class="lube-tabs tabs-top-main">
 			<div class="mbox">
-				<div class="lube-tabs-top-nav-wrap cfix-after">
+				<div class="lube-tabs-top-nav-wrap">
 					<div class="lube-tabs-top-nav-item active" data-utabs=0>
 						<div class="lube-tabs-top-nav-item-inside">Ресторан Любэ</div>
 					</div>

@@ -89,7 +89,8 @@ function sliderInit(){
 		autoplay:true,
 		autoplaySpeed:2000,
 		fade:true,
-		cssEase:'linear'
+		cssEase:'linear',
+		dots:true
 	});
 };
 

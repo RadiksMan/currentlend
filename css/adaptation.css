@@ -1,0 +1,10 @@
+@media screen and (max-width: 1366px) {
+  /* slider */
+  .lube-slider-wrap .slider-description {
+    width: 750px;
+    margin-left: -375px;
+    font-size: 54px;
+    line-height: 64px;
+  }
+  /* /slider */
+}

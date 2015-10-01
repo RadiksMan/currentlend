@@ -89,7 +89,8 @@ function sliderInit(){
 		autoplay:true,
 		autoplaySpeed:2000,
 		fade:true,
-		cssEase:'linear'
+		cssEase:'linear',
+		dots:true
 	});
 };
 
@@ -102,6 +103,7 @@ $(document).ready(function() {
 
 	oneHeightItems();
 	sliderInit();
+	u_tabs('.lube-tabs-top-nav-item', '.lube-tabs-top-content');
 });
 
 $(window).load(function(){

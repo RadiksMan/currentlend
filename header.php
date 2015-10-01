@@ -5,6 +5,7 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<title></title>
+
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 
 	<link rel="stylesheet" href="css/bootstrap.css" media="all" />
@@ -13,6 +14,10 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 
 	<link rel="stylesheet" href="css/tuesdayAnimate.css" media='all' />
+
+
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic&subset=cyrillic' rel='stylesheet' type='text/css'>
+
 
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 

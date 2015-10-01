@@ -5,6 +5,7 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<title></title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 
 	<link rel="stylesheet" href="css/bootstrap.css" media="all" />

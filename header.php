@@ -104,7 +104,55 @@
 <body>
 	<?partial('zHiddenBlock');?>
 	<header class="header">
-		<div class="mbox">
+        <div class="header_wrapper">
+            <div class="header_top">
+                <div class="mbox">
+                    <div class="head-logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
 
-		</div>
+                    <div class="header-mail">
+                        <a href="mailto:lube_plus@ukr.net">
+                            <span class="icon icon-mail"></span>
+                            <span>lube_plus@ukr.net</span>
+                        </a>
+                    </div>
+                    <div class="header-tel">
+                        <a href="tel:0382651276">
+                            <span class="icon icon-tel"></span>
+                            <span>(0382)&nbsp;65-12-76</span>
+                        </a>
+                    </div>
+                    <div class="header-tel">
+                        <a href="tel:+380980110965">
+                            <span class="icon icon-tel"></span>
+                            <span>+38&nbsp;(098)&nbsp;011-09-65</span>
+                        </a>
+                    </div>
+                    <div class="bronirivat">
+                        <a href="#" class="">
+                            <span>Бронировать</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom">
+                <div class="mbox">
+                    <div class="navigation-wrap">
+                        <div class="navigation">
+                            <ul>
+                                <li><a href="#"><span>О гостинице</span></a></li>
+                                <li><a href="#"><span>Номера</span></a></li>
+                                <li><a href="#"><span>Ресторан</span></a></li>
+                                <li><a href="#"><span>Конференц услуги</span></a></li>
+                                <li><a href="#"><span>Что нового</span></a></li>
+                                <li><a href="#"><span>Контакты</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</header>

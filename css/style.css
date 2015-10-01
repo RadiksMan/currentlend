@@ -1,6 +1,6 @@
 /* fonts */
 @font-face {
-	font-family: 'somefont';
+	font-family: 'slick';
 	src: url('../fonts/slick.eot');
 	src: local('O'),
 	url('../fonts/slick.woff') format('woff'),
@@ -34,7 +34,7 @@
 
 /* base styles*/
 html{height:100%}
-body{min-height:100%;min-width:960px;font-family:arial,sans-serif;font-size:12px;background:#fff;color:#3d3d3d;position:relative;}
+body{min-height:100%;min-width:960px;font-family:'ProximaNova',sans-serif;font-size:12px;background:#fff;color:#3d3d3d;position:relative;}
 img{vertical-align:bottom;border:0;max-width:100%;}
 /* /base styles */
 
@@ -63,7 +63,7 @@ p{margin:0;}
 
 /* wraps styling*/
 
-.mbox{width:1024px;margin:0 auto;position:relative;z-index:1;}
+.mbox{width:960px;margin:0 auto;position:relative;z-index:1;}
 .mbox:after{content:"";clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;display:block;}
 
 /* /wraps styling*/

@@ -1,0 +1,22 @@
+.header_wrapper .header_top {
+  background-color: #fff;
+}
+
+.header_wrapper .header_top .mbox > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header_wrapper .header_top .head-logo {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.header_wrapper .header_top .header-mail a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header_wrapper .header_bottom {
+  background-color: #d3a664;
+}

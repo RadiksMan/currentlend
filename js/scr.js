@@ -80,12 +80,29 @@ function oneHeightItems(){
 	oneHeight($('.oneHeight'));
 }
 
+/* slider init */
+
+function sliderInit(){
+	$('.lube-slider').slick({
+		infinite:true,
+		arrows:false,
+		autoplay:true,
+		autoplaySpeed:2000,
+		fade:true,
+		cssEase:'linear',
+		dots:true
+	});
+};
+
+/* /slider init */
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
 	$('.footer_placeholder').height($('.footer').outerHeight());
 
 	oneHeightItems();
+	sliderInit();
 });
 
 $(window).load(function(){

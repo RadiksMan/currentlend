@@ -17,6 +17,13 @@
   font-size: 16px;
 }
 
+.header_wrapper .header_top .header-mail .icon-mail {
+  width: 15px;
+  height: 11px;
+  display: inline-block;
+  background: url("../images/head_mail.png") center center no-repeat;
+}
+
 .header_wrapper .header_bottom {
   background-color: #d3a664;
 }

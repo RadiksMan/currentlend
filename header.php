@@ -103,8 +103,10 @@
 </head>
 <body>
 	<?partial('zHiddenBlock');?>
+	<?partial('partials_3.php');?>
 	<header class="header">
 		<div class="mbox">
 
 		</div>
+
 	</header>

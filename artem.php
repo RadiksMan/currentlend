@@ -1,1 +1,1 @@
-<?partial('partials_3.php');?>
+<?partial('partials_3');?>

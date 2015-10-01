@@ -63,7 +63,7 @@ p{margin:0;}
 
 /* wraps styling*/
 
-.mbox{width:1024px;margin:0 auto;position:relative;z-index:1;}
+.mbox{width:960px;margin:0 auto;position:relative;z-index:1;}
 .mbox:after{content:"";clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;display:block;}
 
 /* /wraps styling*/

@@ -21,7 +21,8 @@
 				<div class="copy-rights">
 					<p>©2015 Любе. Все права защищены.</p>
 				</div>
-				<div class="worcked-wrap">
+			</div>
+			<div class="worcked-wrap">
 					<div class="worked">
 						<img src="images/worcked.png" alt=""/>
 						<p>
@@ -29,7 +30,6 @@
 						</p>
 					</div>
 				</div>
-			</div>
 		</div>
 	</footer>
 </body>

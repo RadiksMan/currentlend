@@ -140,7 +140,18 @@
             </div>
             <div class="header_bottom">
                 <div class="mbox">
-                    <div class="navigation"></div>
+                    <div class="navigation-wrap">
+                        <div class="navigation">
+                            <ul>
+                                <li><a href="#"><span>О гостинице</span></a></li>
+                                <li><a href="#"><span>Номера</span></a></li>
+                                <li><a href="#"><span>Ресторан</span></a></li>
+                                <li><a href="#"><span>Конференц услуги</span></a></li>
+                                <li><a href="#"><span>Что нового</span></a></li>
+                                <li><a href="#"><span>Контакты</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

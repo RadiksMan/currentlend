@@ -1,29 +1,33 @@
 /* Footer */
 
 .footer{
-	.mbox{
-		.logo-wrap{float: left;
-			.logo{
-				img{}
+	.mbox{padding: 15px 0px;
+		.logo-wrap{float: left; width: 23%;
+			.logo{width: 100%;
+				img{max-width: 100%;}
 			}
 		}
-		.socials-wrap{float: left;
-			.socials{
-				.vk-wrap, .face-wrap, .insta-wrap{
-					a{}
+		.socials-wrap{float: left; width: 66%;
+			.socials{width: 100%;
+				.social-footer{margin:0 auto; width: 20%;margin-bottom: 15px;
+					.vk-wrap, .face-wrap, .insta-wrap{background-repeat: no-repeat;width: 31px; height: 20px;float: left;display: inline-block;text-align: center;background-position: center center;margin-right: 10px;
+						a{}
+					}
+					.vk-wrap{background-image: url(../images/vk.png);}
+					.face-wrap{background-image: url(../images/face.png);}
+					.insta-wrap{background-image: url(../images/insta.png);}
+					&:after{display: block;content: ' ';clear: both;}
 				}
-				.vk-wrap{}
-				.face-wrap{}
-				.insta-wrap{}
+				&:after{display: block;content: ' ';clear: both;}
 			}
-			.copy-right{
+			.copy-rights{
 				p{text-align: center;}
 			}
 		}
-		.worcked-wrap{float: right;
-			.worcked{
-				img{}
-				p{}
+		.worked-wrap{float: right; width: 10%;
+			.worked{display: table-cell;
+				img{float: left;}
+				p{vertical-align: bottom;float: right;}
 			}
 		}
 	}

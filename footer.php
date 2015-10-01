@@ -8,6 +8,7 @@
 			</div>
 			<div class="socials-wrap">
 				<div class="socials">
+					<div class="social-footer">
 					<div class="vk-wrap">
 						<a href="#" class="vk"></a>
 					</div>
@@ -17,14 +18,15 @@
 					<div class="insta-wrap">
 						<a href="#" class="insta"></a>
 					</div>
+					</div>
 				</div>
 				<div class="copy-rights">
 					<p>©2015 Любе. Все права защищены.</p>
 				</div>
 			</div>
-			<div class="worcked-wrap">
+			<div class="worked-wrap">
 					<div class="worked">
-						<img src="images/worcked.png" alt=""/>
+						<img src="images/wocked.png" alt=""/>
 						<p>
 							<span>Разработано<Br>в 971art</span>
 						</p>

@@ -141,7 +141,7 @@
             <div class="header_bottom">
                 <div class="mbox">
                     <div class="navigation-wrap">
-                        <div class="navigation">
+                        <div class="navigation cfix">
                             <ul>
                                 <li><a href="#"><span>О гостинице</span></a></li>
                                 <li><a href="#"><span>Номера</span></a></li>

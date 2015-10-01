@@ -103,6 +103,7 @@ $(document).ready(function() {
 
 	oneHeightItems();
 	sliderInit();
+	u_tabs('.lube-tabs-top-nav-item', '.lube-tabs-top-content');
 });
 
 $(window).load(function(){

@@ -26,6 +26,10 @@
   color: #302e2e;
 }
 
+.header_wrapper .header_top .header-mail a:hover {
+  opacity: .8;
+}
+
 .header_wrapper .header_top .header-mail .icon-mail {
   width: 15px;
   height: 11px;
@@ -44,6 +48,10 @@
   font-size: 16px;
   font-family: 'ProximaNova';
   color: #302e2e;
+}
+
+.header_wrapper .header_top .header-tel a:hover {
+  opacity: .8;
 }
 
 .header_wrapper .header_top .header-tel .icon-tel {
@@ -71,6 +79,10 @@
   text-decoration: none;
 }
 
+.header_wrapper .header_top .bronirivat a:hover {
+  opacity: .8;
+}
+
 .header_wrapper .header_top .bronirivat:hover a {
   background-color: #c29759;
   color: white;
@@ -94,6 +106,10 @@
   padding: 0 13px;
 }
 
+.header_wrapper .header_bottom .navigation li:first-child span:after {
+  display: none;
+}
+
 .header_wrapper .header_bottom .navigation li a {
   color: #ffffff;
   font-size: 18px;
@@ -108,6 +124,19 @@
 
 .header_wrapper .header_bottom .navigation li span {
   position: relative;
+}
+
+.header_wrapper .header_bottom .navigation li span:after {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  content: "";
+  background-color: #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  left: -15px;
+  top: 40%;
 }
 
 .header_wrapper .header_bottom .navigation li:hover span:before {

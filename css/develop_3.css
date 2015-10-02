@@ -1,0 +1,115 @@
+/* question */
+.question-form-wrap {
+  width: 100%;
+  max-width: 1920px;
+  background-image: url(../images/question_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 417px;
+}
+
+.question-form-wrap .mbox {
+  padding-top: 49px;
+}
+
+.question-form-wrap .mbox .question .question-form {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1px 0px 33px 0px;
+}
+
+.question-form-wrap .mbox .question .question-form h2 {
+  font-size: 36px;
+  font-family: ProximaNova;
+  text-align: center;
+  color: #260104;
+  padding: 0px 150px;
+  margin-top: 18px;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+.question-form-wrap .mbox .question .question-form form {
+  width: 580px;
+  margin: 0 auto;
+}
+
+.question-form-wrap .mbox .question .question-form form .que-inputs {
+  margin-bottom: 2px;
+}
+
+.question-form-wrap .mbox .question .question-form form .que-inputs .left-question {
+  width: 278px;
+  margin-right: 10px;
+  float: left;
+}
+
+.question-form-wrap .mbox .question .question-form form .que-inputs .left-question .que-input-wrap input[type="text"] {
+  padding: 10px 5px 10px 8px;
+  outline: none;
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  width: 278px;
+  margin-bottom: 12px;
+  border: 0;
+}
+
+.question-form-wrap .mbox .question .question-form form .que-inputs .right-question {
+  float: left;
+}
+
+.question-form-wrap .mbox .question .question-form form .que-inputs .right-question .textarea textarea {
+  padding: 10px 5px 10px 15px;
+  resize: none;
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  width: 290px;
+  height: 105px;
+  border: 0;
+}
+
+.question-form-wrap .mbox .question .question-form form .que-inputs:after {
+  display: block;
+  content: ' ';
+  clear: both;
+}
+
+.question-form-wrap .mbox .question .question-form form .que-input-wrap.sumbit-wrap input[type="submit"] {
+  border: 0;
+  outline: none;
+  font-family: ProximaNova;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  background-image: url(../images/button.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 3px;
+  padding: 6px 0px;
+  color: #fff;
+}
+
+.question-form-wrap .mbox .question .question-form form .que-input-wrap.sumbit-wrap input[type="submit"]:hover {
+  background-image: url(../images/button_hover.png);
+}
+
+.question-form-wrap .mbox .question .question-form form .que-input-wrap.sumbit-wrap input[type="submit"]:active {
+  background-image: url(../images/button_active.png);
+}
+
+.question-form-wrap .mbox .question .question-form form:after {
+  display: block;
+  content: ' ';
+  clear: both;
+}
+
+.question-form-wrap .mbox .question:before {
+  display: block;
+  content: ' ';
+  clear: both;
+}
+
+/* /question */

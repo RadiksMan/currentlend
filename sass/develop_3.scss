@@ -1,0 +1,36 @@
+/* question */
+
+	.question-form-wrap{width: 100%;max-width: 1920px;background-image: url(../images/question_bg.jpg);background-repeat: no-repeat;background-position: center;height: 417px;
+		.mbox{padding-top: 49px;
+			.question{
+				.question-form{background-color: rgba(255,255,255,0.85);padding: 1px 0px 33px 0px;
+					h2{font-size: 36px;font-family: ProximaNova; text-align: center; color: #260104; padding: 0px 150px; margin-top: 18px;    margin-bottom: 25px;    letter-spacing: 0.5px;}
+					form{width: 580px; margin: 0 auto;
+						.que-inputs{margin-bottom: 2px;
+							.left-question{width: 278px;margin-right: 10px;float: left;
+								.que-input-wrap{
+									input[type="text"]{padding: 10px 5px 10px 8px;outline: none;font-family: ProximaNova;font-size: 18px;font-style: normal;font-weight: normal; width: 278px; margin-bottom: 12px;    border: 0;}
+								}
+							}
+							.right-question{float: left;
+								.textarea{
+									textarea{padding: 10px 5px 10px 15px;resize:none;font-family: ProximaNova;font-size: 18px;font-style: normal;font-weight: normal; width: 290px; height: 105px;    border: 0;}
+								}
+							}
+							&:after{display: block;content: ' '; clear: both;}
+						}
+						.que-input-wrap.sumbit-wrap{
+							input[type="submit"]{border: 0;outline: none;font-family: ProximaNova;font-size: 24px;font-style: normal;font-weight: normal;background-image: url(../images/button.png);background-repeat: no-repeat;width: 100%; border-radius: 3px; padding: 6px 0px; color: #fff;
+								&:hover{background-image: url(../images/button_hover.png);}
+								&:active{background-image: url(../images/button_active.png);}
+							}
+						}
+						&:after{display: block;content: ' '; clear: both;}
+					}
+				}
+				&:before{display: block;content: ' '; clear: both;}
+			}
+		}
+	}
+
+/* /question */

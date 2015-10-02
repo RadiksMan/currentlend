@@ -64,8 +64,7 @@
 		.clear{clear: both;}
 	</style>
 
-	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-	<script src="js/jandexMapsScr.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <!-- jandexMaps -->
 
 <!-- remove Files -->

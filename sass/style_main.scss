@@ -82,9 +82,9 @@
 
 /* slider  */
 
-.lube-slider-wrap{min-width: 960px;position: relative;
+.lube-slider-wrap{min-width: 960px;position: relative;margin-bottom: 31px;
     .slider-description{position: absolute;background-color: rgba(255,255,255,.83);left: 50%;top:50%;font-family: 'Lora', sans-serif;color:#d3a664;line-height: 130px;font-size: 72px;margin-left: -480px;margin-top: -65px;z-index:1;width: 960px;text-align: center;}
-    .slick-dots{position: absolute;z-index: 1;text-align: center;bottom: 0;left: 0;right: 0;margin-bottom: 0;
+    .slick-dots{position: absolute;z-index: 1;text-align: center;bottom: 0;left: 0;right: 0;margin-bottom: 25px;
         li{display: inline-block;margin-right: 5px;
             button{display: inline-block;position: relative;font-size: 0;color:transparent;box-sizing:border-box;padding: 0;margin: 0;background-color: transparent;border-radius: 50%;border:2px solid #edeeea;width: 16px;height: 16px;
                 &:focus{outline:none;}
@@ -104,12 +104,44 @@
 
 /* tabs */
 
-.lube-tabs-top-nav-wrap{border-bottom: 2px solid #e3b168;display: table;
-    .lube-tabs-top-nav-item{font-family: 'Lora', sans-serif;color:#fff;font-size:24px;padding:15px 23px 10px 24px;background-color: #260104;border-radius: 5px 5px 0 0;position: relative;z-index: 0;display: inline-block;vertical-align: bottom;cursor: pointer;
-        &.active{background-color: #e3b168;padding:20px 15px 10px 15px;margin:0 -5px;z-index: 1;
+.big-title{font-family: 'Lora', sans-serif;color:#260104;font-size: 36px;margin-bottom: 39px;text-align: center;}
+
+.lube-tabs-top-nav-wrap{border-bottom: 4px solid #e3b168;display: table;
+    .lube-tabs-top-nav-item{font-family: 'Lora', sans-serif;color:#fff;font-size:24px;padding:13px 23px 10px 24px;background-color: #260104;border-radius: 5px 5px 0 0;position: relative;z-index: 0;display: inline-block;vertical-align: bottom;cursor: pointer;
+        &.active{background-color: #e3b168;padding:23px 15px 10px 15px;margin:0 -5px;z-index: 1;
             &:first-child{padding:20px 15px 10px 10px;margin: 0 -5px 0 0;}
             &:last-child{padding: 20px 10px 10px 15px;margin: 0 0 0 -5px;}
         }
+    }
+}
+.lube-tabs-top-content-wrap{background-image:url(../images/background-flowers.jpg);padding: 0 20px;
+    .lube-tabs-top-content{display: none;padding-top: 29px;
+        &.active{display: block;}
+        .tabs-text-content{font-size: 18px;color:#260104;margin-bottom: 24px;
+            p{line-height: 24px;
+                span{color:#e3b168;font-weight: 700;}
+            }
+            ul {margin-bottom: 9px;
+                li{padding-left: 11px;position: relative;margin-bottom: -5px;
+                    &:before{content: '';position: absolute;left: 0px;top:11px;width: 6px;height: 6px;border-radius: 50%;background-color: #260104;}
+                }
+                &.list-line{margin-bottom: 0px;
+                    li:before{content: '';position: absolute;left: 3px;top:13px;width: 5px;height: 1px;background-color: #260104;}
+                }
+            }
+        }
+        .tabs-img-content{
+            .tabs-img-item{width: calc(33% - 10px);display: inline-block;margin-bottom: 20px;text-align: center;margin-right: 16px;
+                &:nth-child(3n){margin-right: 0;}
+                a{display: block;position: relative;border-radius: 3px;
+                    &:before{content: '';position: absolute;left: 0;top: 0;right: 0;bottom: 0;z-index: 1;background-color: rgba(0,0,0,.6);display: none;border-radius: 3px;}
+                    &:after{content: '';display: none;position: absolute;left: 50%;top: 50%;background-image:url(../images/loop-icon.png);width: 66px;height: 66px;margin: -33px 0 0 -33px;z-index: 2;}
+                    &:hover:after, &:hover:before{display: block;}
+                }
+            }
+
+        }
+
     }
 }
 

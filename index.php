@@ -441,4 +441,6 @@
 			</div>
 		</div>
 
+		<? partial('section_map'); ?>
+
 	</div>

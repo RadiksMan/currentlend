@@ -306,4 +306,14 @@
   display: block;
 }
 
+.appartamets-item {
+  width: calc(50% - 10px);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.appartamets-item .appartaments-item-fotos-wrap {
+  margin-bottom: 20px;
+}
+
 /* /tabs */

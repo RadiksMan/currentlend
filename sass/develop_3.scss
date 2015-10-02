@@ -31,12 +31,12 @@
 			}
 		}
 		.worked-wrap{float: right; width: 18%; text-align: right;
-			.worked{position: relative;
-				.worked-img{float: left;
+			.worked{position: relative;vertical-align: middle;
+				.worked-img{display: inline-block; margin-right: 15px;
 					img{}
 				}
-				.p-wrap{display: inline-block;vertical-align: bottom;
-					p{position: absolute; bottom: -5px; right: 24px; text-align: left;color: #4c4845;font-family: 'Myriad Pro'; font-size: 14px;cursor: pointer;line-height: 1.5;
+				.p-wrap{display: inline-block;
+					p{text-align: left;color: #4c4845;font-family: 'Myriad Pro'; font-size: 14px;cursor: pointer;line-height: 1.5;
 						&:hover{color: #fe1157;}
 					}
 					&:after{display: block;content: ' ';clear: both;}

@@ -15,12 +15,12 @@
 						</div>
 						<div class="right-question">
 							<div class="que-input-wrap textarea">
-								<textarea cols="10" rows="5" name="question"  placeholder="Ваш вопрос"></textarea>
+								<textarea cols="10" rows="4" name="question"  placeholder="Ваш вопрос"></textarea>
 							</div>
 						</div>
 					</div>
 					<div class="que-input-wrap sumbit-wrap">
-						<input type="submit" name="submit" value="Задать вопрос">
+						<input type="submit" name="submit" class="button-submit" value="Задать вопрос">
 					</div>
 				</form>
 			</div>

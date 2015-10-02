@@ -269,3 +269,76 @@
 }
 
 /* /question */
+/* whatsnew */
+.whats-new-wrap .mbox {
+  padding-top: 17px;
+  padding-bottom: 70px;
+}
+
+.whats-new-wrap .mbox .whats-new h2 {
+  text-align: center;
+  font-family: Lora;
+  font-size: 36px;
+  color: #260104;
+}
+
+.whats-new-wrap .mbox .whats-new .left-what-wrap, .whats-new-wrap .mbox .whats-new .right-what-wrap {
+  width: 50%;
+  float: left;
+}
+
+.whats-new-wrap .mbox .whats-new .left-what-wrap .content-what h3, .whats-new-wrap .mbox .whats-new .right-what-wrap .content-what h3 {
+  font-family: Lora;
+  font-size: 24px;
+  color: #260104;
+  margin-top: 13px;
+  margin-bottom: 16px;
+}
+
+.whats-new-wrap .mbox .whats-new .left-what-wrap .content-what p, .whats-new-wrap .mbox .whats-new .right-what-wrap .content-what p {
+  font-family: arial;
+  font-size: 16px;
+  color: #260104;
+  font-weight: normal;
+  max-height: 240px;
+  line-height: 1.3;
+}
+
+.whats-new-wrap .mbox .whats-new .left-what-wrap .under-content .date-what, .whats-new-wrap .mbox .whats-new .right-what-wrap .under-content .date-what {
+  font-family: arial;
+  font-size: 16px;
+  color: #e4b56f;
+  float: left;
+}
+
+.whats-new-wrap .mbox .whats-new .left-what-wrap .under-content a, .whats-new-wrap .mbox .whats-new .right-what-wrap .under-content a {
+  float: right;
+  font-family: arial;
+  font-size: 16px;
+  color: #e3b168;
+  text-decoration: underline;
+}
+
+.whats-new-wrap .mbox .whats-new .left-what-wrap .under-content a:hover, .whats-new-wrap .mbox .whats-new .right-what-wrap .under-content a:hover {
+  color: #dd8402;
+  text-decoration: none;
+}
+
+.whats-new-wrap .mbox .whats-new .left-what-wrap .under-content:after, .whats-new-wrap .mbox .whats-new .right-what-wrap .under-content:after {
+  display: block;
+  content: ' ';
+  clear: both;
+}
+
+.whats-new-wrap .mbox .whats-new .left-what-wrap {
+  padding-right: 65px;
+  border-right: 1px solid #E6E6E6;
+  box-sizing: border-box;
+}
+
+.whats-new-wrap .mbox .whats-new .right-what-wrap {
+  box-sizing: border-box;
+  padding-left: 67px;
+}
+
+/* /whatsnew */

@@ -1,3 +1,5 @@
+/* header */
+
 .header_wrapper{
     .header_top{background-color: #fff;padding-bottom: 11px;
         .mbox>div{display: inline-block;vertical-align: middle;}
@@ -45,6 +47,10 @@
     }
 }
 
+/* /header */
+
+/* map */
+
 .map_google_wrap{height: 500px;overflow: hidden;position: relative;
 
     .map_text_wrap{position: absolute;width: 460px;top: -45%;left: 50%;transform:translateX(-50%);z-index: 10;}
@@ -77,8 +83,10 @@
     }
 }
 
+/* /map */
 
 /*fancy-pop*/
+
 .wrap_zayavka .fancybox-skin,.wrap_zayavka .fancybox-inner{border-radius:10px !important;}
 .zayavka_wrap{min-width: 385px;box-sizing:border-box;text-align: center;background-color: #fff;
     .zayavka_form_first{padding: 30px 30px 49px;}
@@ -99,3 +107,5 @@
         .zayavka-title{white-space: pre;min-width: 380px;padding-top: 10px;padding-bottom: 20px;}
     }
 }
+
+/* /fancy-pop*/

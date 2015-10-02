@@ -180,6 +180,134 @@ function fancyTabs(){
 
 /* /fancybox for tabs images */
 
+function showONdisplay () {
+    $(window).scroll(function () {
+        classChange1 = ".block3-item" ;
+        classChange2 = ".block5-item" ;
+        var isOnView1 = isElementVisible(classChange1);
+        var isOnView2 = isElementVisible(classChange2);
+        var length1 = $(classChange1).length ;
+        var length2 = $(classChange2).length ;
+        var i = 0;
+        var j = 0;
+        if(isOnView1 ){
+            if ($(classChange1).is('.viv3'))
+            {
+                var itemCur1 ;
+                    setInterval(function() {
+                        if (i<length1){
+                            itemCur1 = $(classChange1).eq(i);
+                            itemCur1.addClass('animated tdZoomIn');
+                            itemCur1.removeClass('viv3');
+                            i=i+1;
+                        };
+                    }, 600);
+            }
+        }
+        i=0;
+        if(isOnView2 ){
+            if ($(classChange2).is('.viv5'))
+            {
+                var itemCur2 ;
+                    setInterval(function() {
+                        if (j<length2){
+                            itemCur2 = $(classChange2).eq(j);
+                            itemCur2.addClass('animated tdZoomIn');
+                            itemCur2.removeClass('viv5');
+                            j=j+1;
+                        };
+                    }, 600);
+            }
+        }
+
+    });
+};
+
+function isElementVisible(elementToBeChecked)
+{
+    var TopView = $(window).scrollTop();
+    var BotView = TopView + $(window).height();
+    var TopElement = $(elementToBeChecked).offset().top;
+    var BotElement = TopElement + $(elementToBeChecked).height();
+    return ((BotElement <= BotView) && (TopElement >= TopView));
+}
+
+function googleMap(){
+    function initialize() {
+        var myLatlng = new google.maps.LatLng(49.418035,  26.984585);
+        var myOptions = {
+            zoom: 17,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(document.getElementById("map_google"), myOptions);
+
+        var contentString = '<div class="marker-test">Червоноармійська вул., 18</div>';
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Uluru (Ayers Rock)',
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map,marker);
+        });
+
+    }
+    initialize();
+}
+
+function fancyBox(){
+    $('.fancybox_popup').fancybox({
+        padding:0,
+        fitToView:false,
+        wrapCSS:"wrap_zayavka",
+        autoSize:true
+    });
+};
+
+function validationZayavka(){
+
+    var formSur = $('.form-class').serialize();
+
+    $.ajax({
+        url : 'ajax.php',
+        data: formSur,
+        method:'POST',
+        success : function(data){
+            if ( data.trim()!='true') {
+                popNext();
+            }
+            else {
+               $(this).trigger('reset');
+            }
+
+        }
+    });
+
+    function popNext(){
+        $.fancybox.open("#zayavka_success",{
+            padding:0,
+            fitToView:false,
+            wrapCSS:"wrap_zayavka",
+            autoSize:true,
+            afterClose: function(){
+                clearTimeout(timer);
+            }
+        });
+        var timer = null;
+
+        timer = setTimeout(function(){
+            $.fancybox.close("#zayavka_success");
+        },2000)
+    }
+
+}
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
@@ -192,6 +320,18 @@ $(document).ready(function() {
 	u_tabs('.tabs-bottom-main .lube-tabs-top-nav-item', '.tabs-bottom-main .lube-tabs-top-content');
 	fancyTabs();
 
+	showONdisplay();
+
+	$('#questionform').validate();
+    var phone = $('#question-phone');
+    inputNumber(phone);
+
+    googleMap();
+    fancyBox();
+
+    validate('.form-class',{submitFunction:validationZayavka});
+
+    inputNumber($('.zayavka_tel_wrap'));
 
 });
 

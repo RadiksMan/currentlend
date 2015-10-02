@@ -148,3 +148,7 @@
   background: url("../images/header_line.png") center center repeat-x;
   position: absolute;
 }
+
+.map_google {
+  height: 500px;
+}

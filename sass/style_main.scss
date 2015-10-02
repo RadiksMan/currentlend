@@ -415,7 +415,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3b063', end
     .map_text_wrap{position: absolute;width: 460px;top: -45%;left: 50%;transform:translateX(-50%);z-index: 10;}
     .map_text_circle_2{background-color: rgba(211,166,100, 0.67);height: 460px;width: 100%;border-radius: 50%;}
     .map_text_circle_1{background-color: rgba(211,166,100, 0.85);height: 435px;width: 420px;border-radius: 50%;margin: 0 auto;position: absolute;top: 0;left: 50%;transform: translate(-50%, 0%);-ms-transform: translate(-50%, 0%)}
-    .map_text_descr{position: absolute;top: 51%;text-align: center;left: 50%;-ms-transform: translateX(-50%);width: 400px;}
+    .map_text_descr{position: absolute;top: 51%;text-align: center;left: 50%;-ms-transform: translateX(-50%);transform: translateX(-50%);width: 400px;}
     .map_text_descr_title{font-family: "Lora";color: #fff;font-size: 36px;padding-top: 14px;padding-bottom: 5px;}
     .map_text_descr_tel{
         .header-mail{display: inline-block;padding: 0 14px;

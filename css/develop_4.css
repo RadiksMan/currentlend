@@ -333,12 +333,16 @@
   padding: 12px 15px;
   font-size: 16px;
   outline: none;
-  border: none;
+  border: 1px solid transparent;
 }
 
 .zayavka_wrap .zayavka-row input::-webkit-input-placeholder {
   color: #7d7f80;
   font-size: 16px;
+}
+
+.zayavka_wrap .zayavka-row input.error {
+  border: 1px solid red;
 }
 
 .zayavka_wrap .zayavka_success {

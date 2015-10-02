@@ -7,12 +7,12 @@
                 <!-- validationZayavka(); -->
                 <div class="zayavka_form">
                     <div class="zayavka_form_wrap">
-                        <form action="" name="">
+                        <form class="form-class">
                             <div class="zayavka-row">
-                                <input type="text" name="zayavka_name" placeholder="Введит Ваше имя">
+                                <input type="text" name="zayavka_name" placeholder="Введит Ваше имя" required="required">
                             </div>
                             <div class="zayavka-row zayavka_tel_wrap">
-                                <input type="text" name="zayavka_tel" placeholder="Введит Ваш номер">
+                                <input type="text" name="zayavka_tel" placeholder="Введит Ваш номер" required="required" class="tel-mask">
                             </div>
                             <div class="zayavka-row">
                                <button type="submit" class="button">Забронировать номер</button>

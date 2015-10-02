@@ -22,7 +22,7 @@ function googleMap(){
         google.maps.event.addListener(marker, 'click', function() {
             infowindow.open(map,marker);
         });
-        // marker.setMap(map);
+
     }
     initialize();
 }
@@ -36,14 +36,16 @@ function fancyBox(){
     });
 };
 
-function validationZayavka(){
-    $('.zayavka_form_first form').submit(function(){
+var validationZayavka = function(){
 
-        var form = $(this).serialize();
-        console.log(form);
+    $('.form-class').submit(function(){
+
+        var formSur = $(this).serialize();
+
+        console.log(formSur);
         $.ajax({
             url : 'ajax.php',
-            data: form,
+            data: formSur,
             success : function(data){
                 popNext();
             }
@@ -66,9 +68,9 @@ function validationZayavka(){
         timer = setTimeout(function(){
             $.fancybox.close("#zayavka_success");
         },2000)
-        // $('.zayavka_form_first').fadeOut(400);
-        // $('.zayavka_success').fadeIn(400);
     }
+
+    //form.submit();
 }
 
 
@@ -76,6 +78,8 @@ $(document).ready(function(){
     googleMap();
     fancyBox();
 
+    validate('.form-class',{submitFunction:validationZayavka});
+
     inputNumber($('.zayavka_tel_wrap'));
-    validationZayavka();
+    //validationZayavka();
 });

@@ -173,4 +173,272 @@
 			</div>
 		</div>
 
+		<div class="lube-tabs tabs-bottom-main">
+			<div class="mbox">
+
+				<div class="big-title">Выберете лучший номер для себя</div>
+
+				<div class="lube-tabs-top-nav-wrap">
+					<div class="lube-tabs-top-nav-item active" data-utab=0>
+						<div class="lube-tabs-top-nav-item-inside">Отель Любе плюс</div>
+					</div>
+					<div class="lube-tabs-top-nav-item" data-utab=1>
+						<div class="lube-tabs-top-nav-item-inside">Отель Любе</div>
+					</div>
+				</div>
+
+				<div class="lube-tabs-top-content-wrap">
+					<div class="lube-tabs-top-content active" data-utab=0>
+						<div class="appartamets-item">
+							<div class="appartaments-item-fotos-wrap cfix-after">
+								<div class="appartaments-item-foto-big">
+									<a href="images/appartament-foto-big1.png" class="fancybox-tabs">
+										<img src="images/appartament-foto-big1.png" alt="" />
+									</a>
+								</div>
+								<div class="appartaments-item-foto-small">
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small1.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small1.png" alt="" />
+										</a>
+									</div>
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small2.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small2.png" alt="" />
+										</a>
+									</div>
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small3.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small3.png" alt="" />
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="appartaments-item-description">
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon1.png" alt="" />
+									</span>
+									<span class="appartament-description-text">40 м<sup>2</sup></span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon2.png" alt="" />
+									</span>
+									<span class="appartament-description-text">душ</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon3.png" alt="" />
+									</span>
+									<span class="appartament-description-text">кондиционер</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon4.png" alt="" />
+									</span>
+									<span class="appartament-description-text">бесплатный завтрак</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon5.png" alt="" />
+									</span>
+									<span class="appartament-description-text">wi-fi</span>
+								</div>
+							</div>
+							<div class="appartaments-item-button">
+								<a href="#appartaments-form" class="fancybox button">Забронировать номер</a>
+							</div>
+						</div>
+						<div class="appartamets-item">
+							<div class="appartaments-item-fotos-wrap cfix-after">
+								<div class="appartaments-item-foto-big">
+									<a href="images/appartament-foto-big1.png" class="fancybox-tabs">
+										<img src="images/appartament-foto-big1.png" alt="" />
+									</a>
+								</div>
+								<div class="appartaments-item-foto-small">
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small1.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small1.png" alt="" />
+										</a>
+									</div>
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small2.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small2.png" alt="" />
+										</a>
+									</div>
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small3.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small3.png" alt="" />
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="appartaments-item-description">
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon1.png" alt="" />
+									</span>
+									<span class="appartament-description-text">40 м<sup>2</sup></span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon2.png" alt="" />
+									</span>
+									<span class="appartament-description-text">душ</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon3.png" alt="" />
+									</span>
+									<span class="appartament-description-text">кондиционер</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon4.png" alt="" />
+									</span>
+									<span class="appartament-description-text">бесплатный завтрак</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon5.png" alt="" />
+									</span>
+									<span class="appartament-description-text">wi-fi</span>
+								</div>
+							</div>
+							<div class="appartaments-item-button">
+								<a href="#appartaments-form" class="fancybox button">Забронировать номер</a>
+							</div>
+						</div>
+					</div>
+					<div class="lube-tabs-top-content" data-utab=1>
+						<div class="appartamets-item">
+							<div class="appartaments-item-fotos-wrap cfix-after">
+								<div class="appartaments-item-foto-big">
+									<a href="images/appartament-foto-big2.png" class="fancybox-tabs">
+										<img src="images/appartament-foto-big2.png" alt="" />
+									</a>
+								</div>
+								<div class="appartaments-item-foto-small">
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small4.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small4.png" alt="" />
+										</a>
+									</div>
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small5.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small5.png" alt="" />
+										</a>
+									</div>
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small6.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small6.png" alt="" />
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="appartaments-item-description">
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon1.png" alt="" />
+									</span>
+									<span class="appartament-description-text">40 м<sup>2</sup></span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon2.png" alt="" />
+									</span>
+									<span class="appartament-description-text">душ</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon3.png" alt="" />
+									</span>
+									<span class="appartament-description-text">кондиционер</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon4.png" alt="" />
+									</span>
+									<span class="appartament-description-text">бесплатный завтрак</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon5.png" alt="" />
+									</span>
+									<span class="appartament-description-text">wi-fi</span>
+								</div>
+							</div>
+							<div class="appartaments-item-button">
+								<a href="#appartaments-form" class="fancybox button">Забронировать номер</a>
+							</div>
+						</div>
+						<div class="appartamets-item">
+							<div class="appartaments-item-fotos-wrap cfix-after">
+								<div class="appartaments-item-foto-big">
+									<a href="images/appartament-foto-big2.png" class="fancybox-tabs">
+										<img src="images/appartament-foto-big2.png" alt="" />
+									</a>
+								</div>
+								<div class="appartaments-item-foto-small">
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small4.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small4.png" alt="" />
+										</a>
+									</div>
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small5.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small5.png" alt="" />
+										</a>
+									</div>
+									<div class="appartament-item-foto-small-wrap">
+										<a href="images/appartament-foto-small6.png" class="fancybox-tabs">
+											<img src="images/appartament-foto-small6.png" alt="" />
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="appartaments-item-description">
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon1.png" alt="" />
+									</span>
+									<span class="appartament-description-text">40 м<sup>2</sup></span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon2.png" alt="" />
+									</span>
+									<span class="appartament-description-text">душ</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon3.png" alt="" />
+									</span>
+									<span class="appartament-description-text">кондиционер</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon4.png" alt="" />
+									</span>
+									<span class="appartament-description-text">бесплатный завтрак</span>
+								</div>
+								<div class="appartamets-item-description-item">
+									<span class="appartaments-item-description-icon">
+										<img src="images/appartament-description-icon5.png" alt="" />
+									</span>
+									<span class="appartament-description-text">wi-fi</span>
+								</div>
+							</div>
+							<div class="appartaments-item-button">
+								<a href="#appartaments-form" class="fancybox button">Забронировать номер</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
 	</div>

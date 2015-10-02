@@ -116,7 +116,8 @@ $(document).ready(function() {
 	oneHeightItems();
 
 	sliderInit();
-	u_tabs('.lube-tabs-top-nav-item', '.lube-tabs-top-content');
+	u_tabs('.tabs-top-main .lube-tabs-top-nav-item', '.tabs-top-main .lube-tabs-top-content');
+	u_tabs('.tabs-bottom-main .lube-tabs-top-nav-item', '.tabs-bottom-main .lube-tabs-top-content');
 	fancyTabs();
 });
 

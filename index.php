@@ -173,6 +173,8 @@
 			</div>
 		</div>
 
+		<?partial('partials_3');?>
+
 		<div class="lube-tabs tabs-bottom-main">
 			<div class="mbox">
 
@@ -444,6 +446,8 @@
 
 			</div>
 		</div>
+
+		<?partial('partials_5');?>
 
 		<? partial('section_map'); ?>
 

@@ -192,6 +192,15 @@
 
 /* /slider */
 /* tabs */
+.tabs-top-main {
+  margin-bottom: 30px;
+}
+
+.tabs-bottom-main {
+  margin-bottom: 60px;
+  padding-top: 30px;
+}
+
 .big-title {
   font-family: 'Lora', sans-serif;
   color: #260104;

@@ -190,6 +190,7 @@
 				<div class="lube-tabs-top-content-wrap">
 					<div class="lube-tabs-top-content active" data-utab=0>
 						<div class="appartamets-item">
+							<div class="appartaments-title">Двухместный номер</div>
 							<div class="appartaments-item-fotos-wrap cfix-after">
 								<div class="appartaments-item-foto-big">
 									<a href="images/appartament-foto-big1.png" class="fancybox-tabs">
@@ -251,6 +252,7 @@
 							</div>
 						</div>
 						<div class="appartamets-item">
+							<div class="appartaments-title">Одноместный номер</div>
 							<div class="appartaments-item-fotos-wrap cfix-after">
 								<div class="appartaments-item-foto-big">
 									<a href="images/appartament-foto-big1.png" class="fancybox-tabs">
@@ -314,6 +316,7 @@
 					</div>
 					<div class="lube-tabs-top-content" data-utab=1>
 						<div class="appartamets-item">
+							<div class="appartaments-title">Двухместный номер</div>
 							<div class="appartaments-item-fotos-wrap cfix-after">
 								<div class="appartaments-item-foto-big">
 									<a href="images/appartament-foto-big2.png" class="fancybox-tabs">
@@ -375,6 +378,7 @@
 							</div>
 						</div>
 						<div class="appartamets-item">
+							<div class="appartaments-title">Одноместный номер</div>
 							<div class="appartaments-item-fotos-wrap cfix-after">
 								<div class="appartaments-item-foto-big">
 									<a href="images/appartament-foto-big2.png" class="fancybox-tabs">

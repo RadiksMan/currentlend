@@ -4,6 +4,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
+    <meta id="viewport" name="viewport" content="width=960, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
 	<title></title>
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">

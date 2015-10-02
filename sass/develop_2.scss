@@ -2,9 +2,22 @@
     .block3{ max-width: 960px; margin: 0 auto; text-align: center;
         .block3-header{ font-family: Lora; font-size: 36px;margin: 0 auto; padding-top: 33px; line-height: 42px;  }
         .block3-convert{margin: 0 auto; padding-top: 40px;
+            .viv3{opacity: 0;}
             .block3-item{ display: inline-block; width: 25%;  margin-left: -4px; vertical-align: top; }
             .block3-item:first-child{margin-left: 0;}
-            .text-content{ font-size: 18px; padding-top: 25px;}
+            .text-content3{ font-size: 18px; padding-top: 25px;}
+        }
+    }
+}
+
+.block5-wrap{box-sizing: border-box; width: 100%; height: 380px; background-image: url('/images/block5-background.png');
+    .block5{ max-width: 960px; margin: 0 auto; text-align: center;
+        .block5-header{ font-family: Lora; font-size: 36px;margin: 0 auto; padding-top: 33px; line-height: 42px; color: #ffffff; }
+        .block5-convert{margin: 0 auto; padding-top: 40px;
+            .viv5{opacity: 0;}
+            .block5-item{ display: inline-block; width: 25%;  margin-left: -4px; vertical-align: top; }
+            .block5-item:first-child{margin-left: 0; }
+            .text-content5{ font-size: 18px; padding-top: 32px; color: #ffffff; }
         }
     }
 }

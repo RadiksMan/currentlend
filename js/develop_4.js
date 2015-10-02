@@ -27,7 +27,55 @@ function googleMap(){
     initialize();
 }
 
+function fancyBox(){
+    $('.fancybox_popup').fancybox({
+        padding:0,
+        fitToView:false,
+        wrapCSS:"wrap_zayavka",
+        autoSize:true
+    });
+};
+
+function validationZayavka(){
+    $('.zayavka_form_first form').submit(function(){
+
+        var form = $(this).serialize();
+        console.log(form);
+        $.ajax({
+            url : 'ajax.php',
+            data: form,
+            success : function(data){
+                popNext();
+            }
+        });
+        return false;
+    });
+
+    function popNext(){
+        $.fancybox.open("#zayavka_success",{
+            padding:0,
+            fitToView:false,
+            wrapCSS:"wrap_zayavka",
+            autoSize:true,
+            afterClose: function(){
+                clearTimeout(timer);
+            }
+        });
+        var timer = null;
+
+        timer = setTimeout(function(){
+            $.fancybox.close("#zayavka_success");
+        },2000)
+        // $('.zayavka_form_first').fadeOut(400);
+        // $('.zayavka_success').fadeIn(400);
+    }
+}
+
 
 $(document).ready(function(){
     googleMap();
+    fancyBox();
+
+    inputNumber($('.zayavka_tel_wrap'));
+    validationZayavka();
 });

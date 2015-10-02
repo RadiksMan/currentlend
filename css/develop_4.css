@@ -283,6 +283,10 @@
 }
 
 /*fancy-pop*/
+.wrap_zayavka .fancybox-skin, .wrap_zayavka .fancybox-inner {
+  border-radius: 10px !important;
+}
+
 .zayavka_wrap {
   min-width: 385px;
   box-sizing: border-box;
@@ -291,7 +295,7 @@
 }
 
 .zayavka_wrap .zayavka_form_first {
-  padding: 33px 30px;
+  padding: 30px 30px 49px;
 }
 
 .zayavka_wrap .zayavka-title {
@@ -338,10 +342,12 @@
 }
 
 .zayavka_wrap .zayavka_success {
-  display: none;
   padding: 33px 30px;
 }
 
 .zayavka_wrap .zayavka_success .zayavka-title {
   white-space: pre;
+  min-width: 380px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }

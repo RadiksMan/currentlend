@@ -31,6 +31,7 @@ function fancyBox(){
     $('.fancybox_popup').fancybox({
         padding:0,
         fitToView:false,
+        wrapCSS:"wrap_zayavka",
         autoSize:true
     });
 };
@@ -51,8 +52,22 @@ function validationZayavka(){
     });
 
     function popNext(){
-        $('.zayavka_form_first').fadeOut(400);
-        $('.zayavka_success').fadeIn(400);
+        $.fancybox.open("#zayavka_success",{
+            padding:0,
+            fitToView:false,
+            wrapCSS:"wrap_zayavka",
+            autoSize:true,
+            afterClose: function(){
+                clearTimeout(timer);
+            }
+        });
+        var timer = null;
+
+        timer = setTimeout(function(){
+            $.fancybox.close("#zayavka_success");
+        },2000)
+        // $('.zayavka_form_first').fadeOut(400);
+        // $('.zayavka_success').fadeIn(400);
     }
 }
 

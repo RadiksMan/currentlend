@@ -79,8 +79,9 @@
 
 
 /*fancy-pop*/
+.wrap_zayavka .fancybox-skin,.wrap_zayavka .fancybox-inner{border-radius:10px !important;}
 .zayavka_wrap{min-width: 385px;box-sizing:border-box;text-align: center;background-color: #fff;
-    .zayavka_form_first{padding: 33px 30px;}
+    .zayavka_form_first{padding: 30px 30px 49px;}
     .zayavka-title{font-family: "Lora";font-size: 38px;font-weight: bold;color: #000000;}
     .zayavka-subtitle{font-family: "Lora";font-size: 14px;color: #000000;padding-bottom: 25px;}
 
@@ -92,7 +93,7 @@
         }
     }
 
-    .zayavka_success{display: none;padding: 33px 30px;
-        .zayavka-title{white-space: pre;}
+    .zayavka_success{padding: 33px 30px;
+        .zayavka-title{white-space: pre;min-width: 380px;padding-top: 10px;padding-bottom: 20px;}
     }
 }

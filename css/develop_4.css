@@ -284,11 +284,14 @@
 
 /*fancy-pop*/
 .zayavka_wrap {
-  width: 385px;
-  padding: 33px 30px;
+  min-width: 385px;
   box-sizing: border-box;
   text-align: center;
   background-color: #fff;
+}
+
+.zayavka_wrap .zayavka_form_first {
+  padding: 33px 30px;
 }
 
 .zayavka_wrap .zayavka-title {
@@ -332,4 +335,13 @@
 .zayavka_wrap .zayavka-row input::-webkit-input-placeholder {
   color: #7d7f80;
   font-size: 16px;
+}
+
+.zayavka_wrap .zayavka_success {
+  display: none;
+  padding: 33px 30px;
+}
+
+.zayavka_wrap .zayavka_success .zayavka-title {
+  white-space: pre;
 }

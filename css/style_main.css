@@ -310,10 +310,33 @@
   width: calc(50% - 10px);
   display: inline-block;
   vertical-align: top;
+  margin-right: 15px;
+}
+
+.appartamets-item:nth-child(2n) {
+  margin-right: 0;
 }
 
 .appartamets-item .appartaments-item-fotos-wrap {
   margin-bottom: 20px;
+}
+
+.appartamets-item .appartaments-item-fotos-wrap .appartaments-item-foto-big {
+  float: left;
+  width: 62.5%;
+}
+
+.appartamets-item .appartaments-item-fotos-wrap .appartaments-item-foto-small {
+  float: right;
+  width: 31.4%;
+}
+
+.appartamets-item .appartaments-item-fotos-wrap .appartaments-item-foto-small .appartament-item-foto-small-wrap {
+  margin-bottom: 10px;
+}
+
+.appartamets-item .appartaments-item-fotos-wrap .appartaments-item-foto-small .appartament-item-foto-small-wrap:last-child {
+  margin-bottom: 0;
 }
 
 /* /tabs */

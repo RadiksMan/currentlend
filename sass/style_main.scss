@@ -145,8 +145,17 @@
     }
 }
 
-.appartamets-item{width: calc(50% - 10px);display: inline-block;vertical-align: top;
-    .appartaments-item-fotos-wrap{margin-bottom: 20px;}
+.appartamets-item{width: calc(50% - 10px);display: inline-block;vertical-align: top;margin-right: 15px;
+    &:nth-child(2n){margin-right: 0;}
+    .appartaments-item-fotos-wrap{margin-bottom: 20px;
+        .appartaments-item-foto-big{float: left;width: 62.5%;}
+        .appartaments-item-foto-small{float: right;width: 31.4%;
+            .appartament-item-foto-small-wrap{margin-bottom: 10px;
+                &:last-child{margin-bottom: 0;}
+            }
+        }
+    }
+    .appartaments-item-description{margin-bottom: }
 }
 
 /* /tabs */

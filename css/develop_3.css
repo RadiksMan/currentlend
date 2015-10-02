@@ -145,12 +145,12 @@
   max-width: 1920px;
   background-image: url(../images/question_bg.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
 }
 
 .question-form-wrap .mbox {
   padding-top: 49px;
-  padding-bottom: 50px;
+  padding-bottom: 46px;
 }
 
 .question-form-wrap .mbox .question .question-form {

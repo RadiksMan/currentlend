@@ -447,7 +447,9 @@
 			</div>
 		</div>
 
-		<?partial('partials_5');?>
+		<? partial('partials_5'); ?>
+
+		<? partial('question_form'); ?>
 
 		<? partial('section_map'); ?>
 

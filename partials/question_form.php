@@ -3,7 +3,7 @@
 		<div class="question">
 			<div class="question-form">
 				<h2>Возможно у Вас остались вопросы, задайте их нам</h2>
-				<form action="" method="POST" class="questionform">
+				<form class="questionform" id="questionform">
 					<div class="que-inputs">
 						<div class="left-question">
 							<div class="que-input-wrap">
@@ -24,6 +24,6 @@
 					</div>
 				</form>
 			</div>
-		</div>	
+		</div>
 	</div>
 </div>

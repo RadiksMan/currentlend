@@ -1,6 +1,6 @@
 
 function validate(form, options){
-    console.log('dsfgdsg');
+
     var setings = {
         errorFunction:null,
         submitFunction:null
@@ -73,7 +73,7 @@ function validate(form, options){
 }
 
 $( document ).ready(function() {
-    $('.questionform').validate();
+    $('#questionform').validate();
     var phone = $('#question-phone');
     inputNumber(phone);
 });

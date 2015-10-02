@@ -9,7 +9,9 @@
 						.que-inputs{margin-bottom: 2px;
 							.left-question{width: 278px;margin-right: 10px;float: left;
 								.que-input-wrap{
-									input[type="text"]{padding: 10px 5px 10px 8px;outline: none;font-family: ProximaNova;font-size: 18px;font-style: normal;font-weight: normal; width: 278px; margin-bottom: 12px;    border: 0;}
+									input[type="text"], input[type="number"]{padding: 10px 5px 10px 8px;outline: none;font-family: ProximaNova;font-size: 18px;border: 1px solid #fff;font-style: normal;font-weight: normal; width: 278px; margin-bottom: 12px; }
+									label.error{display: none!important;}
+									input.error{border: 1px solid #f00;    box-sizing: border-box;}
 								}
 							}
 							.right-question{float: left;

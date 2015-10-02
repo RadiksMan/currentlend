@@ -3,14 +3,14 @@
 		<div class="question">
 			<div class="question-form">
 				<h2>Возможно у Вас остались вопросы, задайте их нам</h2>
-				<form action="" method="POST">
+				<form action="" method="POST" class="questionform">
 					<div class="que-inputs">
 						<div class="left-question">
 							<div class="que-input-wrap">
 								<input type="text" name="name" placeholder="Ваше имя"/>
 							</div>
-							<div class="que-input-wrap">
-								<input type="text" name="number" placeholder="Ваш номер телефона"/>
+							<div class="que-input-wrap" id="question-phone">
+								<input type="text"  name="number" placeholder="Ваш номер телефона" required="required"/>
 							</div>
 						</div>
 						<div class="right-question">

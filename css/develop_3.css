@@ -43,16 +43,25 @@
   float: left;
 }
 
-.question-form-wrap .mbox .question .question-form form .que-inputs .left-question .que-input-wrap input[type="text"] {
+.question-form-wrap .mbox .question .question-form form .que-inputs .left-question .que-input-wrap input[type="text"], .question-form-wrap .mbox .question .question-form form .que-inputs .left-question .que-input-wrap input[type="number"] {
   padding: 10px 5px 10px 8px;
   outline: none;
   font-family: ProximaNova;
   font-size: 18px;
+  border: 1px solid #fff;
   font-style: normal;
   font-weight: normal;
   width: 278px;
   margin-bottom: 12px;
-  border: 0;
+}
+
+.question-form-wrap .mbox .question .question-form form .que-inputs .left-question .que-input-wrap label.error {
+  display: none !important;
+}
+
+.question-form-wrap .mbox .question .question-form form .que-inputs .left-question .que-input-wrap input.error {
+  border: 1px solid #f00;
+  box-sizing: border-box;
 }
 
 .question-form-wrap .mbox .question .question-form form .que-inputs .right-question {

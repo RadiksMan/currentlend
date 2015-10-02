@@ -2,32 +2,46 @@
 
 .footer{
 	.mbox{padding: 15px 0px;
-		.logo-wrap{float: left; width: 23%;
+		.logo-wrap{float: left; width: 26%;
 			.logo{width: 100%;
 				img{max-width: 100%;}
 			}
 		}
-		.socials-wrap{float: left; width: 66%;
+		.socials-wrap{float: left; width: 56%;
 			.socials{width: 100%;
-				.social-footer{margin:0 auto; width: 20%;margin-bottom: 15px;
-					.vk-wrap, .face-wrap, .insta-wrap{background-repeat: no-repeat;width: 31px; height: 20px;float: left;display: inline-block;text-align: center;background-position: center center;margin-right: 10px;
-						a{}
+				.social-footer{margin:0 auto; width: 30%;margin-bottom: 15px;
+					.vk-wrap, .face-wrap, .insta-wrap{background-repeat: no-repeat;width: 31px; height: 20px;float: left;display: inline-block;text-align: center;background-position: center center;margin-right: 16px;
+						a{display: block;width: 100%;height: 100%;}
 					}
-					.vk-wrap{background-image: url(../images/vk.png);}
-					.face-wrap{background-image: url(../images/face.png);}
-					.insta-wrap{background-image: url(../images/insta.png);}
+					.vk-wrap{background-image: url(../images/vk.png);margin-left: 20px;
+						&:hover{background-image: url(../images/vk_hover.png);}
+					}
+					.face-wrap{background-image: url(../images/face.png);
+						&:hover{background-image: url(../images/face_hover.png);}
+					}
+					.insta-wrap{background-image: url(../images/insta.png);
+						&:hover{background-image: url(../images/insta_hover.png);}
+					}
 					&:after{display: block;content: ' ';clear: both;}
 				}
 				&:after{display: block;content: ' ';clear: both;}
 			}
 			.copy-rights{
-				p{text-align: center;}
+				p{text-align: center;color: #4c4845;font-family: 'Myriad Pro';font-size: 16px; letter-spacing: 1px;}
 			}
 		}
-		.worked-wrap{float: right; width: 10%;
-			.worked{display: table-cell;
-				img{float: left;}
-				p{vertical-align: bottom;float: right;}
+		.worked-wrap{float: right; width: 18%; text-align: right;
+			.worked{position: relative;
+				.worked-img{float: left;
+					img{}
+				}
+				.p-wrap{display: inline-block;vertical-align: bottom;
+					p{position: absolute; bottom: -5px; right: 24px; text-align: left;color: #4c4845;font-family: 'Myriad Pro'; font-size: 14px;cursor: pointer;line-height: 1.5;
+						&:hover{color: #fe1157;}
+					}
+					&:after{display: block;content: ' ';clear: both;}
+				}
+				&:after{display: block;content: ' ';clear: both;}
 			}
 		}
 	}

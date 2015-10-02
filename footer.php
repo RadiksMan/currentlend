@@ -26,10 +26,12 @@
 			</div>
 			<div class="worked-wrap">
 					<div class="worked">
-						<img src="images/wocked.png" alt=""/>
-						<p>
-							<span>Разработано<Br>в 971art</span>
-						</p>
+						<div class="worked-img">
+							<img src="images/wocked.png" alt=""/>
+						</div>
+						<div class="p-wrap">
+							<p>Разработано<Br>в 971art</p>
+						</div>
 					</div>
 				</div>
 		</div>

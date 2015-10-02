@@ -5,7 +5,7 @@
 
 .footer .mbox .logo-wrap {
   float: left;
-  width: 23%;
+  width: 26%;
 }
 
 .footer .mbox .logo-wrap .logo {
@@ -18,7 +18,7 @@
 
 .footer .mbox .socials-wrap {
   float: left;
-  width: 66%;
+  width: 56%;
 }
 
 .footer .mbox .socials-wrap .socials {
@@ -27,7 +27,7 @@
 
 .footer .mbox .socials-wrap .socials .social-footer {
   margin: 0 auto;
-  width: 20%;
+  width: 30%;
   margin-bottom: 15px;
 }
 
@@ -39,19 +39,38 @@
   display: inline-block;
   text-align: center;
   background-position: center center;
-  margin-right: 10px;
+  margin-right: 16px;
+}
+
+.footer .mbox .socials-wrap .socials .social-footer .vk-wrap a, .footer .mbox .socials-wrap .socials .social-footer .face-wrap a, .footer .mbox .socials-wrap .socials .social-footer .insta-wrap a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .footer .mbox .socials-wrap .socials .social-footer .vk-wrap {
   background-image: url(../images/vk.png);
+  margin-left: 20px;
+}
+
+.footer .mbox .socials-wrap .socials .social-footer .vk-wrap:hover {
+  background-image: url(../images/vk_hover.png);
 }
 
 .footer .mbox .socials-wrap .socials .social-footer .face-wrap {
   background-image: url(../images/face.png);
 }
 
+.footer .mbox .socials-wrap .socials .social-footer .face-wrap:hover {
+  background-image: url(../images/face_hover.png);
+}
+
 .footer .mbox .socials-wrap .socials .social-footer .insta-wrap {
   background-image: url(../images/insta.png);
+}
+
+.footer .mbox .socials-wrap .socials .social-footer .insta-wrap:hover {
+  background-image: url(../images/insta_hover.png);
 }
 
 .footer .mbox .socials-wrap .socials .social-footer:after {
@@ -68,24 +87,57 @@
 
 .footer .mbox .socials-wrap .copy-rights p {
   text-align: center;
+  color: #4c4845;
+  font-family: 'Myriad Pro';
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .footer .mbox .worked-wrap {
   float: right;
-  width: 10%;
+  width: 18%;
+  text-align: right;
 }
 
 .footer .mbox .worked-wrap .worked {
-  display: table-cell;
+  position: relative;
 }
 
-.footer .mbox .worked-wrap .worked img {
+.footer .mbox .worked-wrap .worked .worked-img {
   float: left;
 }
 
-.footer .mbox .worked-wrap .worked p {
+.footer .mbox .worked-wrap .worked .p-wrap {
+  display: inline-block;
   vertical-align: bottom;
-  float: right;
+}
+
+.footer .mbox .worked-wrap .worked .p-wrap p {
+  position: absolute;
+  bottom: -5px;
+  right: 24px;
+  text-align: left;
+  color: #4c4845;
+  font-family: 'Myriad Pro';
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.footer .mbox .worked-wrap .worked .p-wrap p:hover {
+  color: #fe1157;
+}
+
+.footer .mbox .worked-wrap .worked .p-wrap:after {
+  display: block;
+  content: ' ';
+  clear: both;
+}
+
+.footer .mbox .worked-wrap .worked:after {
+  display: block;
+  content: ' ';
+  clear: both;
 }
 
 /* /Footer*/

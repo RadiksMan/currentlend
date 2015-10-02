@@ -42,6 +42,12 @@
 	<script src="js/modernizr.js" type="text/javascript"></script>
 	<script src="js/jquery.watermark.min.js" type="text/javascript"></script>
 
+<!-- mask for inputs -->
+
+	<script src="js/maskInput.js" type="text/javascript"></script>
+
+<!-- /mask for inputs -->
+
 <!-- sliders -->
 	<link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
 	<script src="js/slick.js" type="text/javascript"></script>

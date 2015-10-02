@@ -149,6 +149,135 @@
   position: absolute;
 }
 
-.map_google {
+.map_google_wrap {
   height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.map_google_wrap .map_text_wrap {
+  position: absolute;
+  width: 460px;
+  top: -45%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.map_google_wrap .map_text_circle_2 {
+  background-color: rgba(211, 166, 100, 0.67);
+  height: 460px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.map_google_wrap .map_text_circle_1 {
+  background-color: rgba(211, 166, 100, 0.85);
+  height: 435px;
+  width: 420px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+
+.map_google_wrap .map_text_descr {
+  position: absolute;
+  top: 51%;
+  text-align: center;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 400px;
+}
+
+.map_google_wrap .map_text_descr_title {
+  font-family: "Lora";
+  color: #fff;
+  font-size: 36px;
+  padding-top: 14px;
+  padding-bottom: 5px;
+}
+
+.map_google_wrap .map_text_descr_tel .header-mail {
+  display: inline-block;
+  padding: 0 14px;
+}
+
+.map_google_wrap .map_text_descr_tel .header-mail a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'ProximaNova';
+  color: #fff;
+  vertical-align: middle;
+}
+
+.map_google_wrap .map_text_descr_tel .header-mail a:hover {
+  opacity: .8;
+}
+
+.map_google_wrap .map_text_descr_tel .header-mail a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.map_google_wrap .map_text_descr_tel .header-mail .icon-mail {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url("../images/mail_while.png") center center no-repeat;
+}
+
+.map_google_wrap .map_text_descr_tel .header-tel {
+  display: inline-block;
+  padding: 0 14px;
+}
+
+.map_google_wrap .map_text_descr_tel .header-tel a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'ProximaNova';
+  color: #fff;
+  vertical-align: middle;
+}
+
+.map_google_wrap .map_text_descr_tel .header-tel a:hover {
+  opacity: .8;
+}
+
+.map_google_wrap .map_text_descr_tel .header-tel a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.map_google_wrap .map_text_descr_tel .header-tel .icon-tel {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url("../images/tel_white.png") center center no-repeat;
+}
+
+.map_google_wrap .map_text_descr_img {
+  padding-top: 16px;
+}
+
+.map_google_wrap .map_text_bottom {
+  font-family: 'ProximaNova';
+  color: #fff;
+  font-size: 16px;
+}
+
+.map_google_wrap #map_google {
+  height: 690px;
+}
+
+.map_google_wrap #map_google .marker-test {
+  font-family: 'ProximaNova';
+  color: #601a1a;
+  font-weight: bold;
+  font-size: 16px;
 }

@@ -212,6 +212,7 @@
 .lube-tabs-top-nav-wrap {
   border-bottom: 4px solid #e3b168;
   display: table;
+  font-size: 0;
 }
 
 .lube-tabs-top-nav-wrap .lube-tabs-top-nav-item {

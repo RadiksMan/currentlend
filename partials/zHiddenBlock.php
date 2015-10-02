@@ -13,7 +13,7 @@
                             <input type="text" name="zayavka_tel" placeholder="Введит Ваш номер">
                         </div>
                         <div class="zayavka-row">
-                            <input type="submit" value="Забронировать номер" class="button" >
+                           <button type="submit" class="button">Забронировать номер</button>
                         </div>
                     </form>
                 </div>

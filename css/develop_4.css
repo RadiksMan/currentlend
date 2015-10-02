@@ -314,6 +314,10 @@
   margin-bottom: 0;
 }
 
+.zayavka_wrap .zayavka-row button {
+  width: 100%;
+}
+
 .zayavka_wrap .zayavka-row input {
   width: 100%;
   font-family: 'ProximaNova';

@@ -27,7 +27,15 @@ function googleMap(){
     initialize();
 }
 
+function fancyBox(){
+    $('.fancybox_popup').fancybox({
+        padding:0,
+        fitToView:false,
+        autoSize:true
+    });
+};
 
 $(document).ready(function(){
     googleMap();
+    fancyBox();
 });

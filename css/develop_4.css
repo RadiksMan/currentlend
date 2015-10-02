@@ -281,3 +281,51 @@
   font-weight: bold;
   font-size: 16px;
 }
+
+/*fancy-pop*/
+.zayavka_wrap {
+  width: 385px;
+  padding: 33px 30px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #fff;
+}
+
+.zayavka_wrap .zayavka-title {
+  font-family: "Lora";
+  font-size: 38px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.zayavka_wrap .zayavka-subtitle {
+  font-family: "Lora";
+  font-size: 14px;
+  color: #000000;
+  padding-bottom: 25px;
+}
+
+.zayavka_wrap .zayavka-row {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.zayavka_wrap .zayavka-row:last-child {
+  margin-bottom: 0;
+}
+
+.zayavka_wrap .zayavka-row input {
+  width: 100%;
+  font-family: 'ProximaNova';
+  color: #7d7f80;
+  background-color: #e8eff0;
+  padding: 12px 15px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+.zayavka_wrap .zayavka-row input::-webkit-input-placeholder {
+  color: #7d7f80;
+  font-size: 16px;
+}

@@ -131,7 +131,7 @@
                         </a>
                     </div>
                     <div class="bronirivat">
-                        <a href="#" class="">
+                        <a href="#zayavka_pop" class="fancybox_popup">
                             <span>Бронировать</span>
                         </a>
                     </div>

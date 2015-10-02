@@ -35,7 +35,32 @@ function fancyBox(){
     });
 };
 
+function validationZayavka(){
+    $('.zayavka_form_first form').submit(function(){
+
+        var form = $(this).serialize();
+        console.log(form);
+        $.ajax({
+            url : 'ajax.php',
+            data: form,
+            success : function(data){
+                popNext();
+            }
+        });
+        return false;
+    });
+
+    function popNext(){
+        $('.zayavka_form_first').fadeOut(400);
+        $('.zayavka_success').fadeIn(400);
+    }
+}
+
+
 $(document).ready(function(){
     googleMap();
     fancyBox();
+
+    inputNumber($('.zayavka_tel_wrap'));
+    validationZayavka();
 });

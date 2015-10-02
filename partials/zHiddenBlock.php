@@ -4,13 +4,14 @@
             <div class="zayavka_form_first">
                 <div class="zayavka-title">Оставьте заявку</div>
                 <div class="zayavka-subtitle">И мы свяжемся с Вами в ближайшее время</div>
+                <!-- validationZayavka(); -->
                 <div class="zayavka_form">
                     <div class="zayavka_form_wrap">
                         <form action="" name="">
                             <div class="zayavka-row">
-                                <input type="text" name="zayavka_name" placeholder="Введит Ваше имя">
+                                <input type="text" name="zayavka_name" min="3" placeholder="Введит Ваше имя">
                             </div>
-                            <div class="zayavka-row">
+                            <div class="zayavka-row zayavka_tel_wrap">
                                 <input type="text" name="zayavka_tel" placeholder="Введит Ваш номер">
                             </div>
                             <div class="zayavka-row">

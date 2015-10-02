@@ -36,21 +36,23 @@ function fancyBox(){
     });
 };
 
-var validationZayavka = function(){
+function validationZayavka(){
 
-    $('.form-class').submit(function(){
+    var formSur = $('.form-class').serialize();
 
-        var formSur = $(this).serialize();
-
-        console.log(formSur);
-        $.ajax({
-            url : 'ajax.php',
-            data: formSur,
-            success : function(data){
+    $.ajax({
+        url : 'ajax.php',
+        data: formSur,
+        method:'POST',
+        success : function(data){
+            if ( data.trim()!='true') {
                 popNext();
             }
-        });
-        return false;
+            else {
+               $(this).trigger('reset');
+            }
+
+        }
     });
 
     function popNext(){
@@ -70,7 +72,6 @@ var validationZayavka = function(){
         },2000)
     }
 
-    //form.submit();
 }
 
 
@@ -81,5 +82,5 @@ $(document).ready(function(){
     validate('.form-class',{submitFunction:validationZayavka});
 
     inputNumber($('.zayavka_tel_wrap'));
-    //validationZayavka();
+
 });

@@ -116,7 +116,6 @@ function validate(form, options){
             },
             submitHandler: function(form) {
                 if( typeof(setings.submitFunction) === 'function' ) {
-                	console.log('s');
                     setings.submitFunction();
                 } else {
                     form.submit();

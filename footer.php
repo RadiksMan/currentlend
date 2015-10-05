@@ -26,12 +26,14 @@
 			</div>
 			<div class="worked-wrap">
 					<div class="worked">
-						<div class="worked-img">
-							<img src="images/wocked.png" alt=""/>
-						</div>
-						<div class="p-wrap">
-							<p>Разработано<Br>в 971art</p>
-						</div>
+						<a href="http://971art.com" target="_blank">
+							<div class="worked-img">
+								<img src="images/wocked.png" alt=""/>
+							</div>
+							<div class="p-wrap">
+								<p>Разработано<Br>в 971art</p>
+							</div>
+						</a>
 					</div>
 				</div>
 		</div>

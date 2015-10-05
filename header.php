@@ -116,27 +116,27 @@
                 <div class="mbox">
                     <div class="head-logo">
                         <a href="#">
-                            <img src="images/logo.png" alt="">
+                            <img src="images/logo_ver2.png" alt="">
                         </a>
                     </div>
 
                     <div class="header-mail">
-                        <a href="mailto:lube_plus@ukr.net">
+                        <p>
                             <span class="icon icon-mail"></span>
                             <span>lube_plus@ukr.net</span>
-                        </a>
+                        </p>
                     </div>
                     <div class="header-tel">
-                        <a href="tel:0382651276">
+                        <p>
                             <span class="icon icon-tel"></span>
                             <span>(0382)&nbsp;65-12-76</span>
-                        </a>
+                        </p>
                     </div>
                     <div class="header-tel">
-                        <a href="tel:+380980110965">
+                        <p>
                             <span class="icon icon-tel"></span>
                             <span>+38&nbsp;(098)&nbsp;011-09-65</span>
-                        </a>
+                        </p>
                     </div>
                     <div class="bronirivat">
                         <a href="#zayavka_pop" class="fancybox_popup">
@@ -150,7 +150,7 @@
                     <div class="navigation-wrap">
                         <div class="navigation cfix">
                             <ul>
-                                <li><a href="#"><span>О гостинице</span></a></li>
+                                <li><a href="#"><span>О комплексе</span></a></li>
                                 <li><a href="#"><span>Номера</span></a></li>
                                 <li><a href="#"><span>Ресторан</span></a></li>
                                 <li><a href="#"><span>Конференц услуги</span></a></li>

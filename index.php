@@ -45,33 +45,18 @@
 							</div>
 							<div class="tabs-img-content">
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img1.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img1.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img1.png" alt="" />
 									</a>
 								</div>
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img2.png" class="fancybox-tabs">
-										<img src="images/tabs-top-img2.png" alt="" />
-									</a>
-								</div>
-								<div class="tabs-img-item">
-									<a href="images/tabs-top-img3.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img3.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img3.png" alt="" />
 									</a>
 								</div>
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img4.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img4.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img4.png" alt="" />
-									</a>
-								</div>
-								<div class="tabs-img-item">
-									<a href="images/tabs-top-img5.png" class="fancybox-tabs">
-										<img src="images/tabs-top-img5.png" alt="" />
-									</a>
-								</div>
-								<div class="tabs-img-item">
-									<a href="images/tabs-top-img6.png" class="fancybox-tabs">
-										<img src="images/tabs-top-img6.png" alt="" />
 									</a>
 								</div>
 							</div>
@@ -100,21 +85,21 @@
 							</div>
 							<div class="tabs-img-content">
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img3.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img3.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img3.png" alt="" />
 									</a>
 								</div>
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img4.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img4.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img4.png" alt="" />
 									</a>
 								</div>
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img5.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img5.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img5.png" alt="" />
 									</a>
 								</div>
-								<div class="tabs-img-item">
+								<!-- <div class="tabs-img-item">
 									<a href="images/tabs-top-img6.png" class="fancybox-tabs">
 										<img src="images/tabs-top-img6.png" alt="" />
 									</a>
@@ -128,7 +113,7 @@
 									<a href="images/tabs-top-img8.png" class="fancybox-tabs">
 										<img src="images/tabs-top-img8.png" alt="" />
 									</a>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div class="lube-tabs-top-content" data-utab=2>
@@ -141,32 +126,32 @@
 							</div>
 							<div class="tabs-img-content">
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img9.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img9.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img9.png" alt="" />
 									</a>
 								</div>
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img10.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img10.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img10.png" alt="" />
 									</a>
 								</div>
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img11.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img11.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img11.png" alt="" />
 									</a>
 								</div>
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img12.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img12.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img12.png" alt="" />
 									</a>
 								</div>
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img13.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img13.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img13.png" alt="" />
 									</a>
 								</div>
 								<div class="tabs-img-item">
-									<a href="images/tabs-top-img14.png" class="fancybox-tabs">
+									<a href="images/tabs-top-img14.jpg" class="fancybox-tabs">
 										<img src="images/tabs-top-img14.png" alt="" />
 									</a>
 								</div>
@@ -198,29 +183,29 @@
 
 					<div class="lube-tabs-top-content-wrap">
 						<div class="lube-tabs-top-content active" data-utab=0>
-							<div class="appartamets-item">
+							<div class="appartamets-item two_nomer appartamets-plus">
 								<div class="appartaments-title">Двухместный номер</div>
 								<div class="appartaments-item-fotos-wrap cfix-after">
 									<div class="appartaments-item-foto-big">
-										<a href="images/appartament-foto-big1.png" class="fancybox-tabs">
-											<img src="images/appartament-foto-big1.png" alt="" />
-										</a>
+										<div class="appartaments-item-foto-big-wrap active">
+											<img src="images/two_nomer_img_1.png" alt="" />
+										</div>
+										<div class="appartaments-item-foto-big-wrap ">
+											<img src="images/two_nomer_img_2.png" alt="" />
+										</div>
+										<div class="appartaments-item-foto-big-wrap ">
+											<img src="images/two_nomer_img_3.png" alt="" />
+										</div>
 									</div>
 									<div class="appartaments-item-foto-small">
-										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small1.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small1.png" alt="" />
-											</a>
+										<div class="appartament-item-foto-small-wrap active">
+											<img src="images/two_nomer_img_1_small.png" alt="" />
 										</div>
 										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small2.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small2.png" alt="" />
-											</a>
+											<img src="images/two_nomer_img_2_small.png" alt="" />
 										</div>
 										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small3.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small3.png" alt="" />
-											</a>
+											<img src="images/two_nomer_img_3_small.png" alt="" />
 										</div>
 									</div>
 								</div>
@@ -257,34 +242,34 @@
 									</div>
 								</div>
 								<div class="appartaments-item-button">
-									<a href="#appartaments-form" class="fancybox button">Забронировать номер</a>
+									<a href="#zayavka_pop" class="fancybox_popup button">Забронировать номер</a>
 								</div>
 							</div>
-							<div class="appartamets-item">
+							<div class="appartamets-item one_nomer appartamets-plus">
 								<div class="appartaments-title">Одноместный номер</div>
 								<div class="appartaments-item-fotos-wrap cfix-after">
-									<div class="appartaments-item-foto-big">
-										<a href="images/appartament-foto-big1.png" class="fancybox-tabs">
-											<img src="images/appartament-foto-big1.png" alt="" />
-										</a>
+								<div class="appartaments-item-foto-big">
+									<div class="appartaments-item-foto-big-wrap active">
+										<img src="images/two_nomer_img_1.png" alt="" />
 									</div>
-									<div class="appartaments-item-foto-small">
-										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small1.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small1.png" alt="" />
-											</a>
-										</div>
-										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small2.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small2.png" alt="" />
-											</a>
-										</div>
-										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small3.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small3.png" alt="" />
-											</a>
-										</div>
+									<div class="appartaments-item-foto-big-wrap ">
+										<img src="images/two_nomer_img_3.png" alt="" />
 									</div>
+									<div class="appartaments-item-foto-big-wrap ">
+										<img src="images/two_nomer_img_4.png" alt="" />
+									</div>
+								</div>
+								<div class="appartaments-item-foto-small">
+									<div class="appartament-item-foto-small-wrap active">
+										<img src="images/two_nomer_img_1_small.png" alt="" />
+									</div>
+									<div class="appartament-item-foto-small-wrap">
+										<img src="images/two_nomer_img_3_small.png" alt="" />
+									</div>
+									<div class="appartament-item-foto-small-wrap">
+										<img src="images/two_nomer_img_4_small.png" alt="" />
+									</div>
+								</div>
 								</div>
 								<div class="appartaments-item-description">
 									<div class="appartamets-item-description-item">
@@ -319,34 +304,34 @@
 									</div>
 								</div>
 								<div class="appartaments-item-button">
-									<a href="#appartaments-form" class="fancybox button">Забронировать номер</a>
+									<a href="#zayavka_pop" class="fancybox_popup button">Забронировать номер</a>
 								</div>
 							</div>
 						</div>
 						<div class="lube-tabs-top-content" data-utab=1>
-							<div class="appartamets-item">
+							<div class="appartamets-item two_nomer appartamets-normal">
 								<div class="appartaments-title">Двухместный номер</div>
 								<div class="appartaments-item-fotos-wrap cfix-after">
 									<div class="appartaments-item-foto-big">
-										<a href="images/appartament-foto-big2.png" class="fancybox-tabs">
-											<img src="images/appartament-foto-big2.png" alt="" />
-										</a>
+										<div class="appartaments-item-foto-big-wrap active">
+											<img src="images/two_nomer_normal_img_1.png" alt="" />
+										</div>
+										<div class="appartaments-item-foto-big-wrap ">
+											<img src="images/two_nomer_normal_img_2.png" alt="" />
+										</div>
+										<div class="appartaments-item-foto-big-wrap ">
+											<img src="images/two_nomer_normal_img_3.png" alt="" />
+										</div>
 									</div>
 									<div class="appartaments-item-foto-small">
-										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small4.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small4.png" alt="" />
-											</a>
+										<div class="appartament-item-foto-small-wrap active">
+											<img src="images/two_nomer_normal_img_1_small.png" alt="" />
 										</div>
 										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small5.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small5.png" alt="" />
-											</a>
+											<img src="images/two_nomer_normal_img_2_small.png" alt="" />
 										</div>
 										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small6.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small6.png" alt="" />
-											</a>
+											<img src="images/two_nomer_normal_img_3_small.png" alt="" />
 										</div>
 									</div>
 								</div>
@@ -383,32 +368,32 @@
 									</div>
 								</div>
 								<div class="appartaments-item-button">
-									<a href="#appartaments-form" class="fancybox button">Забронировать номер</a>
+									<a href="#zayavka_pop" class="fancybox_popup button">Забронировать номер</a>
 								</div>
 							</div>
-							<div class="appartamets-item">
-								<div class="appartaments-title">Одноместный номер</div>
+							<div class="appartamets-item one_nomer appartamets-normal">
+								<div class="appartaments-title one_nomer">Одноместный номер</div>
 								<div class="appartaments-item-fotos-wrap cfix-after">
 									<div class="appartaments-item-foto-big">
-										<a href="images/appartament-foto-big2.png" class="fancybox-tabs">
-											<img src="images/appartament-foto-big2.png" alt="" />
-										</a>
+										<div class="appartaments-item-foto-big-wrap ">
+											<img src="images/two_nomer_normal_img_1.png" alt="" />
+										</div>
+										<div class="appartaments-item-foto-big-wrap ">
+											<img src="images/two_nomer_normal_img_2.png" alt="" />
+										</div>
+										<div class="appartaments-item-foto-big-wrap active">
+											<img src="images/two_nomer_normal_img_4.png" alt="" />
+										</div>
 									</div>
 									<div class="appartaments-item-foto-small">
-										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small4.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small4.png" alt="" />
-											</a>
+										<div class="appartament-item-foto-small-wrap ">
+											<img src="images/two_nomer_normal_img_1_small.png" alt="" />
 										</div>
 										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small5.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small5.png" alt="" />
-											</a>
+											<img src="images/two_nomer_normal_img_2_small.png" alt="" />
 										</div>
-										<div class="appartament-item-foto-small-wrap">
-											<a href="images/appartament-foto-small6.png" class="fancybox-tabs">
-												<img src="images/appartament-foto-small6.png" alt="" />
-											</a>
+										<div class="appartament-item-foto-small-wrap active">
+											<img src="images/two_nomer_normal_img_4_small.png" alt="" />
 										</div>
 									</div>
 								</div>
@@ -445,7 +430,7 @@
 									</div>
 								</div>
 								<div class="appartaments-item-button">
-									<a href="#appartaments-form" class="fancybox button">Забронировать номер</a>
+									<a href="#zayavka_pop" class="fancybox_popup button">Забронировать номер</a>
 								</div>
 							</div>
 						</div>

@@ -8,13 +8,13 @@
                     </div>
                     <div class="map_text_descr_tel">
                         <div class="header-mail">
-                            <a href="mailto:lube_plus@ukr.net">
+                            <a>
                                 <span class="icon icon-mail"></span>
                                 <span>lube_plus@ukr.net</span>
                             </a>
                         </div>
                         <div class="header-tel">
-                            <a href="tel:0382651276">
+                            <a >
                                 <span class="icon icon-tel"></span>
                                 <span>(0382)&nbsp;65-12-76</span>
                             </a>

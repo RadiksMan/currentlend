@@ -173,7 +173,7 @@ function sliderInit(){
 function fancyTabs(){
 	$('.fancybox-tabs').fancybox({
 		padding:3,
-        fitToView:false,
+        fitToView:true,
         autoSize:true
 	});
 };
@@ -308,8 +308,35 @@ function validationZayavka(){
 
 }
 
+function scrollTop(){
+    var point=1;
+    $('.navigation li').each(function(){
+        var item = $(this);
+        scrollUp(item,"section[data-point="+point+"]");
+        point++;
+    });
+}
+
+function thePhotoslide(miniImg,bigImg){
+    miniImg.click(function(){
+        bigImg.removeClass('active');
+        miniImg.removeClass('active');
+
+        var equ = $(this).index();
+        miniImg.eq(equ).addClass('active');
+        bigImg.eq(equ).addClass('active');
+
+    });
+}
+
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
+     thePhotoslide($('.two_nomer.appartamets-plus .appartaments-item-foto-small .appartament-item-foto-small-wrap'),$('.two_nomer.appartamets-plus .appartaments-item-foto-big .appartaments-item-foto-big-wrap'));
+     thePhotoslide($('.one_nomer.appartamets-plus .appartaments-item-foto-small .appartament-item-foto-small-wrap'),$('.one_nomer.appartamets-plus .appartaments-item-foto-big .appartaments-item-foto-big-wrap'));
+     thePhotoslide($('.one_nomer.appartamets-normal .appartaments-item-foto-small .appartament-item-foto-small-wrap'),$('.one_nomer.appartamets-normal .appartaments-item-foto-big .appartaments-item-foto-big-wrap'));
+     thePhotoslide($('.two_nomer.appartamets-normal .appartaments-item-foto-small .appartament-item-foto-small-wrap'),$('.two_nomer.appartamets-normal .appartaments-item-foto-big .appartaments-item-foto-big-wrap'))
+    //scrollTop();
 	modernize();
 	$('.footer_placeholder').height($('.footer').outerHeight());
 
@@ -332,6 +359,14 @@ $(document).ready(function() {
     validate('.form-class',{submitFunction:validationZayavka});
 
     inputNumber($('.zayavka_tel_wrap'));
+
+
+    /*якоря*/
+    scrollUp('.navigation li:first-child',"section[data-point=1]");
+    scrollUp('.navigation li:nth-child(2)',"section[data-point=3]");
+    scrollUp('.navigation li:nth-child(3)',"section[data-point=2]");
+    scrollUp('.navigation li:nth-child(4)',"section[data-point=4]");
+    scrollUp('.navigation li:last-child',"section[data-point=6]");
 
 });
 
